@@ -9,7 +9,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 dependencies {
-    compile 'com.github.smallstrong0:StatusLayout:v1.0.0'
+    compile 'com.github.smallstrong0:StatusLayout:v1.0.1'
 }
 ```
 ## 鸣谢
