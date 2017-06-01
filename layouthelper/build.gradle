@@ -46,7 +46,7 @@ task javadoc(type: Javadoc) {
     failOnError  false
     source = android.sourceSets.main.java.sourceFiles
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-    org.gradle.jvm.Classpath += configurations.compile
+    classpath += configurations.compile
 }
 
 // build a jar with javadoc
@@ -59,3 +59,4 @@ artifacts {
     archives sourcesJar
     archives javadocJar
 }
+
