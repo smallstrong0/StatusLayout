@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LayoutHelper</string>
+    <string name="empty_text">暂无数据</string>
+    <string name="error_text">无网络连接，请检查您的网络...</string>
+    <string name="retry_text">点击重试</string>
+    <string name="loading_text">加载中...</string>
 </resources>

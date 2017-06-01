@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+    根标签下，通过item标签对动画中的每一个图片进行声明
+    android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/ic_battery_20_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_30_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_50_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_60_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_80_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_90_black_48dp"
+        android:duration="150"></item>
+    <item
+        android:drawable="@drawable/ic_battery_full_black_48dp"
+        android:duration="150"></item>
+</animation-list>
